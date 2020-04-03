@@ -1,0 +1,68 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.category{
+width: 188px;
+  height: 49px;
+  border: solid 3px #e9eef4;
+  background-color: #eaebf2;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.65px;
+  text-align: center;
+  color: #000000;
+  border-radius: 8px;
+
+}
+
+.text
+{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    text-align: center;
+    color: #000000;  
+}
+
+.bar
+{
+  width: 70vw;
+  height: 49px;
+  border-radius: 8px;
+  border: solid 3px #e9eef4;
+  position: absolute;
+  top:-49px;
+  left:177px;
+  border: solid 4px #e9eef4;
+}
+
+.bar:focus {outline:none;}
+
+.category:focus {outline:none;}
+
+.icon
+{
+    width: 49px;
+    height: 49px;
+    background-color: #e9eef4;
+    border-radius: 8px;
+    position: absolute;
+
+}
+
+.image
+{
+    width:24px;
+    height:24px;
+    object-fit: contain;
+    position:absolute;
+    left:12px;
+    top:12px;
+}

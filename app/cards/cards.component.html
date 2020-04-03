@@ -1,0 +1,49 @@
+
+
+<div class="container">
+<div class="define" >
+  <div class="frontcard">
+     <div class="overlay"></div>
+   
+    <img src="assets\img\bg.jpg" class="image">
+    <p class="bannertext">{{type}}</p>
+   <img *ngIf="banner.unverified" src="assets\img\unverified.png" class="banner" >
+   <img  *ngIf="banner.verified" src="assets\img\verified.png" class="banner" >
+   <img  *ngIf="banner.trusted" src="assets\img\trusted.png" class="banner" >                                                                              
+    <img  src="assets\img\Diamond.gif" class="diamond" >
+    <div class="category"><p class="cattext">{{category}}</p></div>
+    <p class="price">{{price}}</p>
+    <p class="discount">{{discount}}</p>
+    <h1 class="heading">{{heading}}</h1>
+    <p class="companyname">{{company}}</p>
+    <img src="assets\img\bartericon.png" class="bartericon">
+    <img src="assets\img\downloadicon.png" class="downloadicon">
+    <img src="assets\img\shoppingcart.png" class="shoppingcarticon">
+    <p class="sales">{{sales}}</p>
+    <img src="assets\img\eye.png" class="eye">
+    <p class="seen">{{views}}</p>
+    <button class="preview">PREVIEW</button>
+    <p class="description">{{description}} </p>
+    <img src="assets\img\url.PNG" class="url">
+    <img src="assets\img\api.PNG" class="api">
+    <img src="assets\img\datavisualization.PNG" class="datavisualization">
+    <p class="urlt">{{url}}</p>
+    <p class="apit">{{api}}</p>
+    <p class="visualizationt">{{datavisualization}}</p>
+    
+    <!-- <ngb-rating [(rate)]="ratings"  [starTemplate]="t" [readonly]="true" max=5></ngb-rating>
+
+    <ng-template #t let-fill="fill">
+      <span *ngif="fill === 100" class="star full">&#9733;</span>
+      <span *ngif="fill === 0" class="star">&#9733;</span>
+      <span *ngif="fill < 100 && fill > 0" class="star">
+      <span class="half" [style.width.%]="fill">&#9733;</span>&#9733;
+      </span>
+    </ng-template> -->
+   
+  </div>
+
+</div>
+  
+</div>
+

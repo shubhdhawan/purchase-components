@@ -1,0 +1,721 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+ /* .container
+{    width: 1920px;
+    height: 1080px;
+    background-color: #f2f2f6;
+}  */
+
+
+
+.define
+{
+    position: relative;
+  top:263px;
+  margin-left: 500px;
+  width: 290px;
+  height: 300px;
+  /* border-radius: 21px; */
+  box-shadow: 10px 10px 20px 0 #c3c4c6, -10px -10px 20px 0 #ffffff;
+  background-color: #f2f2f6;
+  transition: width 0.5s , height 0.6s;
+  
+}
+
+.define>.frontcard
+{
+    width: 290px;
+    height: 300px;    
+   
+}
+
+.define>.frontcard:hover
+{
+    opacity: 1;
+    width: 376px;
+    height: 400px;  
+    
+    
+}
+
+
+.define:hover
+{
+  position: relative;
+  top:263px;
+  margin-left: 500px;
+  width: 376px;
+  height: 400px;
+  
+  box-shadow: 10px 10px 20px 0 #c3c4c6, -10px -10px 20px 0 #ffffff;
+  background-color: #f2f2f6; 
+ 
+}
+ 
+.frontcard>.image
+{
+    width: 278px;
+    height: 146px;
+    object-fit: contain;
+  
+    padding-right:6px;
+    padding-left: 5px;
+  
+    margin-top: 28px;
+    
+    
+}
+
+.frontcard>.overlay
+{
+    width: 232.5px;
+    height: 146px;
+    position:absolute; 
+    margin-left: 28px;
+    margin-top: 28px;
+    background-color: rgba(3, 3, 2, 0.411);
+    z-index: 1;
+    
+    
+    
+}
+
+
+ .frontcard>.heading {
+    width: 120px;
+    height: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    text-align: left;
+    
+    padding-left:28px;
+    
+     position: absolute;
+     top: 175px;
+    
+    
+  } 
+
+  
+
+ .frontcard>.companyname {
+    width: 82px;
+    height: 15px;
+    opacity: 0.77;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(31, 30, 30, 0.747);
+    position: absolute;
+    top:187px; 
+      padding-left: 28px; 
+       
+      
+   
+  }
+
+ .frontcard>.price
+ {
+    
+        width: 24px;
+        height: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 15px;
+        letter-spacing: 0.6px;
+        text-align: left;
+        color: #080202;
+     
+        padding-right: 35px;
+        left: 237px;
+        position: absolute;
+        top:175px; 
+ }
+ 
+
+.frontcard>.discount
+ {
+    width: 17px;
+    height: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 11px;
+    letter-spacing: 0.45px;
+    text-align: left;
+    text-decoration: line-through;
+    color: #7a7474;
+    position: absolute;
+    top:180px;
+   
+    left:212px;
+    padding-right:5px ;
+
+  }
+
+ .frontcard>.bartericon {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+   
+    position: absolute;;
+    top:270px;
+    left:184px;
+  }
+
+ .frontcard>.downloadicon {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+   
+    position: absolute;;
+    top:270px;
+    left:214px;
+  }
+  
+  .frontcard>.shoppingcarticon {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+   
+    position: absolute;;
+    top:270px;
+    left:244px;
+  }
+  
+ .frontcard>.sales {
+    width: 70px;
+    height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #504f4f;
+  
+    position: absolute;
+    top:270px;
+    left:29px;
+    
+  }
+  
+ .frontcard>.eye {
+    width: 29px;
+    height: 22px;
+    object-fit: contain;
+    position: absolute;;
+    top:276px;
+    left:90px;
+  }
+.frontcard>.seen
+  {
+    width: 16px;
+    height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+    position: absolute;
+    top:271px;
+    left:114px;
+  }
+
+  .frontcard>.category {
+    width: 73.1px;
+    height: 26.5px;
+    box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.6);
+    background-image: linear-gradient(91deg, #bc7aff 0%, #6900d5 100%);
+    position: absolute;
+    top:125px;
+    left:187px;
+    z-index: 2;
+  }
+
+
+  .category>.cattext {
+    width: 60px;
+    height: 8px;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 8px;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding-top:2px;
+    position: relative;
+    left: 2px;
+
+  }
+
+  .frontcard>.diamond {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    top:35px;
+    left:217px;
+    z-index: 2;
+  }
+
+ .frontcard>.banner {
+    
+        width: 300px;
+        height: 250px;
+         position: absolute;
+        top:27px;
+        left:28px; 
+        z-index: 2;
+  }
+
+  .frontcard>.bannertext {
+
+     z-index: 3;
+     color: white;
+     font-family: 'Montserrat', sans-serif ;
+     transform: rotate(-46deg);
+     position: absolute;
+     top:45px;
+     left:29px;
+     font-size:10px ;
+     font-weight: bolder;
+     width:67px;
+     
+  }
+ 
+  .star
+   {
+     color:gold;
+     position: relative;
+     top:-70px;
+     font-size: 1.62rem;
+   }
+
+  .full
+   {
+     color:gold
+   } 
+
+   .half
+   {
+     position: absolute;
+     display: inline-block;
+     overflow: hidden;
+     color:gold;
+   }
+   
+   .frontcard>.url
+   {
+     width: 0;
+     height: 0;
+   }
+  
+   .frontcard>.api
+   {
+     width: 0;
+     height: 0;
+    
+   }
+   
+   .frontcard>.datavisualization
+   {
+     width: 0;
+     height: 0;
+   }
+   
+   .frontcard>.urlt
+   {
+     width: 0;
+     height: 0;
+     font-size: 0;
+   }
+
+   .frontcard>.apit
+   {
+     width: 0;
+     height: 0;
+    font-size: 0;
+   }
+
+   .frontcard>.visualizationt
+   {
+     width: 0;
+     height: 0;
+     font-size: 0;
+   }
+
+   .frontcard>.preview
+   {
+     width:0;
+     height:0;
+     font-size: 0;
+     opacity:0;
+
+   }
+
+   .frontcard>.description
+   {
+    width:0;
+    height:0;
+    font-size: 0;
+   }
+
+
+  
+
+  .frontcard:hover>.banner
+  {
+    width: 0;
+    height: 0;
+  }
+
+  .frontcard:hover>.category
+  {
+    width: 0;
+    height: 0;
+  }
+
+  .frontcard:hover>.category>.cattext
+  {
+    
+    font-size: 0;
+  }
+
+  .frontcard:hover>.diamond
+  {
+    width: 0;
+    height: 0;
+  }
+
+  .frontcard:hover>.image
+  { 
+    width: 0;
+    height: 0;
+    
+  }
+
+  .frontcard:hover>.overlay
+  {
+    width: 0;
+    height: 0;
+  }
+
+  .frontcard:hover>.seen
+  {
+    width: 0;
+    height: 0;
+    font-size: 0;
+  }
+
+  .frontcard:hover>.eye
+  {
+    width: 0;
+    height: 0;
+  }
+
+  .frontcard:hover>.bannertext
+  {
+    font-size: 0;
+  }
+
+  .frontcard:hover>.heading
+  {
+    width: 212px;
+    height: 28px;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 1.15px;
+    text-align: left;
+    color: #050202;
+    position: absolute;
+    top:35px;
+  }
+   
+  .frontcard:hover>.price
+  {
+    width: 37px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 22px;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #000000;
+  position: absolute;
+  top:350px;
+  left:62px;
+  transition: ease-in-out;
+  }
+
+  .frontcard:hover>.discount
+  {
+    width: 20px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 14px;
+  letter-spacing: 0.55px;
+  text-align: left;
+  color: #7a7474;
+  text-decoration: line-through;
+  position:absolute;
+  top:362px;
+  left:30px;
+  transition: ease-in-out;
+  }
+  
+  .frontcard:hover>.bartericon
+   {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top:366px;
+    left:260px;
+    transition: ease-in-out;
+   }
+  .frontcard:hover>.downloadicon
+   {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top:366px;
+    left:295px;
+    transition: ease-in-out;
+   }
+  .frontcard:hover>.shoppingcarticon
+   {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top:366px;
+    left:325px;
+    transition: ease-in-out;
+   }
+  
+   .frontcard:hover>.sales
+   {
+    width: 70px;
+    height: 14px;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 14px;
+    letter-spacing: 0.55px;
+    text-align: left;
+    color: #000000;
+    position: absolute;
+    top:70px;
+    left:140px;
+   }
+
+   .frontcard:hover>.companyname
+   {
+    width: 100px;
+    height: 15px;
+    opacity: 0.77;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #1b1919;
+    position: absolute;
+    top:80px;
+    left:0px;
+   }
+
+   .frontcard:hover>.preview
+   {
+    width: 286px;
+    height: 51px;
+    border-radius: 7px;
+    border: solid 2px #1f2355;
+    background-color: #f2f2f6;
+    font-family:  Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #1f2355;
+    position:absolute;
+    top:290px;
+    left:42px;
+    opacity: 1;
+    transition: ease-in-out;
+    
+   }
+
+   .frontcard:hover>.preview:hover
+   {
+    width: 286px;
+    height: 51px;
+    border-radius: 7px;
+    border: solid 2px #1f2355;
+    background-color: #1f2355;
+    font-family:  Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.09px;
+    text-align: center;
+    color: #dddddd;
+    position: absolute;
+    top: 290px;
+    left:42px;
+    opacity: 1;
+    transition: ease-in-out;
+   }
+
+   .frontcard:hover>.description
+   {
+    width: 299px;
+    height: 89px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.62);
+    position: absolute;;
+    top:100px;
+    left:28px;
+   }
+
+   .frontcard:hover>.url
+   {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    top:190px;
+    left:48px;
+   }
+
+   .frontcard:hover>.api
+   {
+    width: 58px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    top:190px;
+    left:160px;
+
+   }
+
+   .frontcard:hover>.datavisualization
+   {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    position: absolute;
+    top:190px;
+    left:280px;
+   }
+
+   .frontcard:hover>.urlt
+   {
+    width: 60px;
+    height: 11px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 11px;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.62);
+    position: absolute;
+    top:240px;
+    left:35px;
+   }
+
+   .frontcard:hover>.apit
+   {
+    width: 60px;
+    height: 11px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 11px;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.62);
+    position: absolute;
+    top:240px;
+    left:150px;
+   }
+
+   .frontcard:hover>.visualizationt
+   {
+    width: 90px;
+    height: 11px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 11px;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.62);
+    position: absolute;
+    top:240px;
+    left:260px;
+    
+   }
+
